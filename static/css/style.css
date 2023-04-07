@@ -1,0 +1,41 @@
+body{
+    font-family:Verdana,Tahoma,sans-sarif;
+    text-align:center;
+    font-size:larger;
+    background-image:url("../images/paris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+background-color: #4ac387;
+padding: 20px;
+border-radius: 6px;
+}
+td{padding: 5px;}
+#submit{
+background-color: #f2f2f2;
+border: 10px;
+width:100%
+padding: 15px 32px;
+font-size: 16px;
+cursor: pointer;
+color: blue;
+border-radius: 7px;
+}
+#submit:hover{
+background-color: #9c6888;
+}
+h1,p{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%
+}
+input[type=number]{
+padding:8px 0px;
+border: 1px solid #ccc;
+margin: 8px 0px;
+border-radius: 5px;
+
+}
